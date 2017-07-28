@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/fontsf.css" rel="stylesheet">
+    <link href="css/stylef.css" rel="stylesheet">
+    <script src="js/front.js"></script>
+    <title>Account</title>
+</head>
+<body id="top">
+<div class="container">
+    <div class="header clearfix">
+        <div class="logo"></div>
+        <div class="menu">
+            <div class="nav_cat">
+                <ul>
+                    <li><a href="#">Категория 1</a></li>
+                    <li><a href="#">Категория 2</a></li>
+                    <li><a href="#">Категория 3</a></li>
+                    <li><a href="#">Категория 4</a></li>
+                </ul>
+            </div>
+            <div class="nav_auth">
+                <img src="images/user.png" alt="user">
+                <a href="#" class="a_auth">Войти</a>
+                <a href="#" class="a_reg">Регистрация</a>
+            </div>
+        </div>
+        <a href="#" class="cart">
+            <div class="cart_sum">
+                <span class="cart_num">46 945</span> руб.<br><span class="cart_item_num">2 предмета</span>
+            </div>
+            <img src="images/cart.png" alt="cart">
+        </a>
+    </div>
+
+    <div class="title_block">
+        <div class="title1">Личный кабинет</div>
+    </div>
+
+    <div class="item_block clearfix">
+        <div class="block50">
+            <h3>Ваши данные</h3>
+            <label class="info_label">Контактное лицо (ФИО):<br><input class="account_input" type="text" name="name" value="Сергей" required></label>
+            <label class="info_label">Контактный телефон:<br><input class="account_input" type="text" name="phone" value="+7 812 000-00-00" required></label>
+            <label class="info_label">Email адрес:<br><input class="account_input" type="email" name="email" value="admin@mail.ru" required></label>
+            <h3>Адрес доставки</h3>
+            <label class="info_label">Город:<br><input class="account_input" type="text" name="city" value="Город" required></label>
+            <label class="info_label">Улица:<br><input class="account_input" type="text" name="street" value="Улица" required></label>
+            <div class="block50 in">
+                <label class="info_label">Дом:<br><input class="account_input" type="text" name="house" value="10" disabled></label>
+            </div>
+            <div class="block50 in">
+                <label class="info_label">Квартира:<br><input class="account_input" type="text" name="room" value="150" disabled></label>
+            </div>
+            <h3>Изменение пароля</h3>
+            <label class="info_label">Введите новый пароль:<br><input class="account_input" type="password" name="pass1" value=""></label>
+            <label class="info_label">Повторите новый пароль:<br><input class="account_input" type="password" name="pass2" value=""></label>
+            <input type="submit" value="Сохранить">
+        </div>
+        <div class="block50">
+            <div class="vert"></div>
+            <h3>Ваши заказы</h3>
+            <div class="account_order">
+                <p class="order_short">
+                    <span class="os_number">№4653</span><br>
+                    <span class="os_sum">(45 468руб.)</span><br>
+                    <span class="os_date">01.01.2015 в 15:54</span>
+                </p>
+                Ожидает доставки
+            </div>
+            <div class="account_order">
+                <p class="order_short">
+                    <span class="os_number">№4653</span><br>
+                    <span class="os_sum">(45 468руб.)</span><br>
+                    <span class="os_date">01.01.2015 в 15:54</span>
+                </p>
+                Ожидает доставки
+            </div>
+            <div class="account_order">
+                <p class="order_short">
+                    <span class="os_number">№4653</span><br>
+                    <span class="os_sum">(45 468руб.)</span><br>
+                    <span class="os_date">01.01.2015 в 15:54</span>
+                </p>
+                Ожидает доставки
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer clearfix">
+        <p>Шаблон для экзаменационного задания.<br>
+            Разработан специально для «Всероссийской Школы Программирования»<br>
+            <a href="http://bedev.ru/">http://bedev.ru/</a></p>
+        <a class="up_top" href="#top">Наверх <img src="images/up.png" alt="up"></a>
+    </div>
+
+</div>
+
+</body>
+</html>

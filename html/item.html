@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/fontsf.css" rel="stylesheet">
+    <link href="css/stylef.css" rel="stylesheet">
+    <script src="js/front.js"></script>
+    <title>Item</title>
+</head>
+<body id="top">
+<div class="container">
+    <div class="header clearfix">
+        <div class="logo"></div>
+        <div class="menu">
+            <div class="nav_cat">
+                <ul>
+                    <li><a href="#">Категория 1</a></li>
+                    <li><a href="#">Категория 2</a></li>
+                    <li><a href="#">Категория 3</a></li>
+                    <li><a href="#">Категория 4</a></li>
+                </ul>
+            </div>
+            <div class="nav_auth">
+                <img src="images/user.png" alt="user">
+                <a href="#" class="a_auth">Войти</a>
+                <a href="#" class="a_reg">Регистрация</a>
+            </div>
+        </div>
+        <a href="#" class="cart">
+            <div class="cart_sum">
+                <span class="cart_num">46 945</span> руб.<br><span class="cart_item_num">2 предмета</span>
+            </div>
+            <img src="images/cart.png" alt="cart">
+        </a>
+    </div>
+
+    <div class="title_block">
+        <div class="title">Категория</div>
+        <a href="#">вернуться в каталог</a>
+    </div>
+
+    <div class="item_block clearfix">
+        <div class="gallery">
+            <div class="item_image"></div>
+            <div class="scroller">
+                <div class="button"><img src="images/gall.png" alt="left" class="right"></div>
+                <div class="small_image"></div>
+                <div class="small_image current"></div>
+                <div class="small_image"></div>
+                <div class="small_image"></div>
+                <div class="button"><img src="images/galr.png" alt="right" class="left"></div>
+            </div>
+        </div>
+
+        <div class="item_info">
+            <h1>Название товара</h1>
+            <div class="item_description">Описание товара</div>
+            <div class="vars"><label>Выберите вариант:<select><option>размер 36</option></select></label></div>
+        </div>
+
+        <div class="item_price_block">
+            <div class="price_block">
+                <p class="old">9 900 руб.</p>
+                <p class="new">4 540руб.</p>
+                <p class="stock">есть в наличии</p>
+                <p class="buy"><a href="#">Купить</a></p>
+            </div>
+            <p class="item_help"><img src="images/car.png" alt="car">Бесплатная доставка<br><span>по всей Росии</span></p>
+            <p class="item_help"><img src="images/support.png" alt="support">Горячая линия<br><span>8 800 000-00-00</span></p>
+            <p class="item_help"><img src="images/gift.png" alt="gift">Подарки<br><span>каждому покупателю</span></p>
+        </div>
+    </div>
+
+    <div class="items clearfix">
+        <div class="items_head">
+            <h2>Другие товары из категории «Категория 1»</h2>
+            <div class="arrows"><a href="#" onclick="scroll_left(event,'i3','i4','l3','l4');"><img id="l3" src="images/lg.png" alt="l"></a><a href="#" onclick="scroll_right(event,'i3','i4','l3','l4');"><img id="l4" src="images/rb.png" alt="l"></a></div>
+        </div>
+        <div class="item_wrapper w1">
+            <div id="i3" class="item_container">
+                <div class="item"><a href="#">
+                    <div class="image"><img src="images/image.jpeg" alt="image"></div>
+                    <p>Название товара</p>
+                    <p class="price">4 540<span>руб.</span></p>
+                </a></div>
+                <div class="item"><a href="#">
+                    <div class="image"><img src="images/image.jpeg" alt="image"></div>
+                    <div class="label"><img src="images/sale.png" alt="sale"></div>
+                    <p>Название товара</p>
+                    <p class="price">4 540<span>руб.</span><span><br>9 990 руб.</span></p>
+                </a></div>
+                <div class="item"><a href="#">
+                    <div class="image"><img src="images/image.jpeg" alt="image"></div>
+                    <p>Название товара</p>
+                    <p class="price">4 540<span>руб.</span></p>
+                </a></div>
+                <div class="item"><a href="#">
+                    <div class="image"><img src="images/image.jpeg" alt="image"></div>
+                    <p>Название товара</p>
+                    <p class="price">4 540<span>руб.</span></p>
+                </a></div>
+            </div>
+            <div id="i4" class="item_container">
+                <div class="item"><a href="#">
+                    <div class="image"><img src="images/image.jpeg" alt="image"></div>
+                    <p>Название товара</p>
+                    <p class="price">4 540<span>руб.</span></p>
+                </a></div>
+                <div class="item"><a href="#">
+                    <div class="image"><img src="images/image.jpeg" alt="image"></div>
+                    <div class="label"><img src="images/sale.png" alt="sale"></div>
+                    <p>Название товара</p>
+                    <p class="price">4 540<span>руб.</span><span><br>9 990 руб.</span></p>
+                </a></div>
+                <div class="item"><a href="#">
+                    <div class="image"><img src="images/image.jpeg" alt="image"></div>
+                    <p>Название товара</p>
+                    <p class="price">4 540<span>руб.</span></p>
+                </a></div>
+                <div class="item"><a href="#">
+                    <div class="image"><img src="images/image.jpeg" alt="image"></div>
+                    <p>Название товара</p>
+                    <p class="price">4 540<span>руб.</span></p>
+                </a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer clearfix">
+        <p>Шаблон для экзаменационного задания.<br>
+            Разработан специально для «Всероссийской Школы Программирования»<br>
+            <a href="http://bedev.ru/">http://bedev.ru/</a></p>
+        <a class="up_top" href="#top">Наверх <img src="images/up.png" alt="up"></a>
+    </div>
+
+</div>
+
+</body>
+</html>

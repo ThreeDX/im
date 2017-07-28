@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/fontsf.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Orders</title>
+    <script src="js/admin.js"></script>
+</head>
+<body>
+<div class="wrapper">
+<div class="container">
+    <div class="left_container">
+        <div class="logo"></div>
+        <div class="nav">
+            <ul>
+                <li class="current"><a href="#" id="m1">Заказы</a></li>
+                <li><a href="#" id="m2">Пользователи</a></li>
+                <li><a href="#" id="m3">Товары</a></li>
+                <li><a href="#" id="m4">Категории</a></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p>admin@mail.ru<br>
+                <a href="#">выйти</a>
+            </p>
+
+        </div>
+    </div>
+    <div class="main">
+        <h1>Заказы</h1>
+
+        <table>
+            <tr><th>Номер заказа</th><th>Статус</th><th>Сумма</th><th colspan="2">Время заказа</th></tr>
+            <tr><td class="t_order_number"><a href="#">№4831</a> от <span>user@mail.ru</span></td><td class="t_order_status st1">
+                <div id="ch1" class="status_change" onmouseleave="cs_hide(this);">
+                    <a href="#" class="st1">принят</a><a href="#" class="st2">отгружен</a><a href="#" class="st3">у курьера</a><a href="#" class="st4">доставлен</a><a href="#" class="st5">отменен</a>
+                </div>
+                <a href="#" onclick="cs_show('ch1');">принят</a></td><td class="t_order_sum">48 597 руб.</td><td class="t_order_time">01.01.2015 в 16:12</td><td class="t_order_view"><a href="#">просмотр</a></td></tr>
+            <tr><td class="t_order_number"><a href="#">№4830</a> от <span>user@mail.ru</span></td><td class="t_order_status st2">
+                <div id="ch2" class="status_change" onmouseleave="cs_hide(this);">
+                    <a href="#" class="st1">принят</a><a href="#" class="st2">отгружен</a><a href="#" class="st3">у курьера</a><a href="#" class="st4">доставлен</a><a href="#" class="st5">отменен</a>
+                </div>
+                <a href="#" onclick="cs_show('ch2');">отгружен</a></td><td class="t_order_sum">48 597 руб.</td><td class="t_order_time">01.01.2015 в 16:12</td><td class="t_order_view"><a href="#">просмотр</a></td></tr>
+            <tr><td class="t_order_number"><a href="#">№4829</a> от <span>user@mail.ru</span></td><td class="t_order_status st3">
+                <div id="ch3" class="status_change" onmouseleave="cs_hide(this);">
+                    <a href="#" class="st1">принят</a><a href="#" class="st2">отгружен</a><a href="#" class="st3">у курьера</a><a href="#" class="st4">доставлен</a><a href="#" class="st5">отменен</a>
+                </div>
+                <a href="#" onclick="cs_show('ch3');">у курьера</a></td><td class="t_order_sum">48 597 руб.</td><td class="t_order_time">01.01.2015 в 16:12</td><td class="t_order_view"><a href="#">просмотр</a></td></tr>
+            <tr><td class="t_order_number"><a href="#">№4828</a> от <span>user@mail.ru</span></td><td class="t_order_status st4">
+                <div id="ch4" class="status_change" onmouseleave="cs_hide(this);">
+                    <a href="#" class="st1">принят</a><a href="#" class="st2">отгружен</a><a href="#" class="st3">у курьера</a><a href="#" class="st4">доставлен</a><a href="#" class="st5">отменен</a>
+                </div>
+                <a href="#" onclick="cs_show('ch4');">доставлен</a></td><td class="t_order_sum">48 597 руб.</td><td class="t_order_time">01.01.2015 в 16:12</td><td class="t_order_view"><a href="#">просмотр</a></td></tr>
+            <tr><td class="t_order_number"><a href="#">№4827</a> от <span>user@mail.ru</span></td><td class="t_order_status st5">
+                <div id="ch5" class="status_change" onmouseleave="cs_hide(this);">
+                    <a href="#" class="st1">принят</a><a href="#" class="st2">отгружен</a><a href="#" class="st3">у курьера</a><a href="#" class="st4">доставлен</a><a href="#" class="st5">отменен</a>
+                </div>
+                <a href="#" onclick="cs_show('ch5');">отменен</a></td><td class="t_order_sum">48 597 руб.</td><td class="t_order_time">01.01.2015 в 16:12</td><td class="t_order_view"><a href="#">просмотр</a></td></tr>
+            <tr><td colspan="5"></td></tr>
+        </table>
+    </div>
+</div>
+</div>
+
+</body>
+</html>
